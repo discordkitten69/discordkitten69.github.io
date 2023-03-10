@@ -8,7 +8,7 @@ const currencies = {
     symbolPosition: "before",
     default: false,
     formatOptions: {
-      symbol: "$",
+      symbol: "USD $",
       pattern: "# !",
       precision: 2,
     },
@@ -25,7 +25,7 @@ const currencies = {
     symbolPosition: "before",
     default: false,
     formatOptions: {
-      symbol: "$",
+      symbol: "CAD $",
       pattern: "# !",
       precision: 2,
     },
@@ -40,7 +40,7 @@ const currencies = {
     symbol: "€",
     name: "Euro",
     symbolPosition: "after",
-    default: true,
+    default: false,
     formatOptions: {
       symbol: "€",
       pattern: "# !",
@@ -142,9 +142,9 @@ const currencies = {
     symbol: "AU$",
     name: "Australian Dollar",
     symbolPosition: "before",
-    default: false,
+    default: true,
     formatOptions: {
-      symbol: "$",
+      symbol: "AUD $",
       pattern: "# !",
       precision: 2,
     },
@@ -1332,7 +1332,7 @@ const currencies = {
     symbolPosition: "before",
     default: false,
     formatOptions: {
-      symbol: "$",
+      symbol: "NZD $",
       pattern: "# !",
       precision: 2,
     },
