@@ -3,12 +3,12 @@ const currencies = {
   USD: {
     code: "USD",
     emojiFlag: "🇺🇸",
-    symbol: "$",
+    symbol: "$USD",
     name: "US Dollar",
     symbolPosition: "before",
     default: false,
     formatOptions: {
-      symbol: "USD $",
+      symbol: "$USD",
       pattern: "# !",
       precision: 2,
     },
@@ -20,12 +20,12 @@ const currencies = {
   CAD: {
     code: "CAD",
     emojiFlag: "🇨🇦",
-    symbol: "CA$",
+    symbol: "$CAD",
     name: "Canadian Dollar",
     symbolPosition: "before",
     default: false,
     formatOptions: {
-      symbol: "CAD $",
+      symbol: "$CAD",
       pattern: "# !",
       precision: 2,
     },
@@ -139,12 +139,12 @@ const currencies = {
   AUD: {
     code: "AUD",
     emojiFlag: "🇦🇺",
-    symbol: "AU$",
+    symbol: "$AUD",
     name: "Australian Dollar",
     symbolPosition: "before",
     default: true,
     formatOptions: {
-      symbol: "AUD $",
+      symbol: "$AUD",
       pattern: "# !",
       precision: 2,
     },
